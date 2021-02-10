@@ -9,28 +9,23 @@
 body{
     font-size: 25px;
     font-family: 'Roboto Condensed', sans-serif;
-    background: linear-gradient(180deg, #01162E 0%, rgba(255, 255, 255, 0) 100%), #576B9D;
-}
-
-#fondo{
-    position: absolute;
-    width: 1510.32px;
-    height: 1007px;
-    left: -35px;
-    top: 0px;
-    opacity: 50%;
+    background: rgb(247, 245, 235);
+    /* background: linear-gradient(180deg, #01162E 0%, rgba(255, 255, 255, 0) 100%), #576B9D; */
 }
 
 .header{
     height:5vw;
     width: 100vw;
-    /* background: linear-gradient(180deg, #4192F0 0%, rgba(255, 255, 255, 0) 100%), #FFFFFF; */
+    background:black;
+     /* background: linear-gradient(180deg, #4192F0 0%, rgba(255, 255, 255, 0) 100%), #FFFFFF;  */
 }
 
 .header .menu .navbar{
     display: flex;
     align-items: center;
-    color: #FFFFFF;
+    color: white;
+    border-radius: 10px;
+    margin-bottom: 20px;
 }
 
 .header .menu .navbar li{
@@ -41,13 +36,24 @@ body{
 img{
     max-width: 120%;
     height: auto;
+    border-radius: 10px;
+}
+
+.hero .h1{
+    color:black;
+    font-size: 30px;
+    text-align: center;
+    display: flex;
+    z-index: 10;
 }
 
 .hero .contenedor-carrusel{
     width: 80%;
+    margin-top: 1%;
     margin-left: 10%;
     overflow: hidden;
     position: relative;
+    border-radius: 10px;
 }
 
 .hero .contenedor-carrusel .slide-carrusel{
@@ -61,7 +67,7 @@ img{
     z-index: 10;
     left: 5%;
     font-size: 30px;
-    color: white;
+    color: black;
     cursor: pointer;
 }
 
@@ -71,6 +77,40 @@ img{
     z-index: 10;
     right: 5%;
     font-size: 30px;
-    color: white;
+    color:black;
     cursor: pointer;
 }
+
+ .experiencia .h1{
+    color: black;
+    margin-right: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+p{
+    font-size: 20px;
+    text-align: justify;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+}
+
+p2{
+    margin-top: 20px;
+}
+
+.proyecto{
+    width: 400px;
+    border-style: solid;
+    border-radius: 10px;
+    margin-left: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.experience{
+    display:flex;
+} 
+
