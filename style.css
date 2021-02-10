@@ -114,3 +114,48 @@ p2{
     display:flex;
 } 
 
+.foto{
+    border-radius: 10px;
+    margin-left: 150px;
+}
+
+p4{
+    font-size: 40px;
+    margin-left: 10px;
+    margin-right: 20px;
+}
+
+#obj-lar{
+    display: flex;
+    list-style: none;
+    width: fit-content;
+    margin-left: 30px;
+}
+
+#obj-cor{
+    display: flex;
+    width: fit-content;
+    list-style: none;
+}
+
+#mot{
+    display: flex;
+    list-style: none;
+    
+}
+
+.yo{
+    display: flex;
+}
+
+.contactme{
+    width: fit-content;
+    border-style: solid;
+    border-radius: 10px;
+    margin-left: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    list-style: none;
+}
+

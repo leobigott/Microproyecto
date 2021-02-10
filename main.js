@@ -35,3 +35,4 @@ slideCarrusel.addEventListener('transitionend',()=>{
         slideCarrusel.style.transform = 'translateX('+(-size*counter)+'px)';
     }
 })
+
